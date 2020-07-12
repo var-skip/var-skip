@@ -1,0 +1,21 @@
+name: varskip
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - numpy=1.18
+  - python=3.7.7
+  - pip
+  - pip:
+    - pandas==0.24.1
+    - absl-py==0.9.0
+    - glog==0.3.1
+    - networkx==2.4
+    - ray[tune]
+    - ray==0.8.5
+    - scipy==1.4.1
+    - yapf==0.27.0
+    - pyarrow
+    - torch
+    - torchvision
+    - requests
